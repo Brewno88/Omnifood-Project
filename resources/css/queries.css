@@ -152,4 +152,8 @@
         width: 45%;
         height: auto;
     }
+
+    header {
+        -webkit-background-attachment: fixed;
+    }
 }
