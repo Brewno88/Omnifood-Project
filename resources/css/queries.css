@@ -154,6 +154,6 @@
     }
 
     header {
-        background-attachment: fixed;
+        position: fixed;
     }
 }
