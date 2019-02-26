@@ -152,4 +152,8 @@
         width: 45%;
         height: auto;
     }
+
+    header {
+        background-position: fixed;
+    }
 }
