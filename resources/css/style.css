@@ -172,7 +172,7 @@ input[type=submit] {
 .button:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #cf6d17;
+    background-color: #e67e17;
 }
 
 .button-full:link,
@@ -185,8 +185,7 @@ input[type=submit] {
 }
 
 .button-full:hover,
-.button-full:active,
-    {
+.button-full:active {
     background: #cf6d17;
 }
 
@@ -271,6 +270,19 @@ header {
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
     /* BORDER 2 - ...and this will color that transparent border*/
+}
+
+/*  Mobile Nav  */
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-nav-icon ion-icon {
+    font-size: 200%;
+    color: #fff;
 }
 
 /*  Sticky Nav  */
@@ -647,3 +659,20 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
+
+/*----------------------------------------------------------------------*/
+/* ANIMATION */
+/*----------------------------------------------------------------------*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
