@@ -369,15 +369,13 @@
                     <div class="row">
 
                         <?php
-                       
-                            <div class="form-message success">
-                                Thank you! Your message has been sent
-                            </div>
+                           if($_GET['success'] ==1) {
+                               echo "<div class=\"form-message success\">Thank you! Your message has been sent.</div>";
+                           }
 
-                            <!-- <div class="form-message error">
-                                Oops! Something went wrong please try again!
-                            </div> -->
-
+                           if($_GET['success'] ==-1) {
+                               echo "<div class="\form-message error\">Oops! Something went wrong please try again!</div>"
+                           }
                         ?>
 
                     </div>

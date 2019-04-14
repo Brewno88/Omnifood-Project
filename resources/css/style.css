@@ -77,7 +77,7 @@ h1 {
 
 h2 {
     font-size: 180%;
-    word-spacing: 2ps;
+    word-spacing: 2px;
     text-align-last: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
@@ -177,7 +177,7 @@ input[type=submit]:active {
 
 .button-full:link,
 .button-full:visited,
-input[type=submit] {
+input[type=submit]{
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #fff;
@@ -307,8 +307,13 @@ header {
     color: #555;
 }
 
-.sticky .logo {display: none;}
-.sticky .logo-black { display: block;}
+.sticky .logo {
+    display: none;
+}
+
+.sticky .logo-black {
+    display: block;
+}
 
 /*----------------------------------------------------------------------*/
 /* FEATURES */
@@ -577,6 +582,24 @@ input[type=checkbox] {
     outline: none
 }
 
+
+.form-message {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.success {
+    background-color: rgba(38, 191, 68, 0.8);
+}
+
+.error {
+    background-color: rgba(209, 46, 46, 0.8);
+}
+
 /*----------------------------------------------------------------------*/
 /* FOOTER */
 /*----------------------------------------------------------------------*/
@@ -675,4 +698,3 @@ footer p {
 .js--wp-3.animated {
     opacity: 1;
 }
-

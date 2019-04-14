@@ -89,6 +89,7 @@
         margin: 0 0 4% 0;
     }
 
+
     .main-nav {
         float: left;
         margin-top: 35px;
@@ -149,7 +150,6 @@
 
     .app-screen {
         width: 40%;
-
     }
 
     .steps-box:first-child {
@@ -166,10 +166,12 @@
 
     .works-step {
         margin-bottom: 20px;
+        display: inline-block;
+        width: 100%;
     }
 
     .works-step:last-child {
-        margin-bottom: 20px;
+        margin-bottom: 2000px;
     }
 }
 
